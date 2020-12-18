@@ -1,0 +1,19 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  background-color: yellowgreen;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.item-b {
+  background-color: mediumslateblue;
+}
