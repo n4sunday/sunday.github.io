@@ -1,19 +1,96 @@
-.box {
-  width: 300px;
-  height: 300px;
-  background-color: red;
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #85a335;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.wrapper {
+  background-color: #fff;
+  height: 85vh;
+  width: 100%;
+  border-radius: 40px 40px 0 0;
+  flex-direction: column;
+  padding: 20px;
+
+  display: flex;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+.description {
+  font-size: 18px;
+  color: #b7bbc0;
+}
+
+.box-logo {
+  margin-top: 25px;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.box-input {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  background-color: #fafafa;
+  border: 2px solid #fafafa;
+  height: 45px;
+  border-radius: 50px;
+  padding: 0 20px;
+}
+
+.input-field:focus {
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid #f8b74d;
+  background-color: #fff;
+}
+
+.reminder {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  font-size: 12px;
 }
 
-.item {
-  background-color: yellowgreen;
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
+.btn-signup {
+  background-color: #f8b74d;
+  border: 2px solid #f8b74d;
+  height: 45px;
+  border-radius: 45px;
+  color: #fff;
+  outline: none;
 }
 
-.item-b {
-  background-color: mediumslateblue;
+.btn-signup:focus {
+  background-color: #f5c06b;
+}
+
+.already {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aaaeb4;
+  text-align: center;
+}
+
+.link-signin {
+  color: #f8b74d;
 }
